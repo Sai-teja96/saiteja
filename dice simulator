@@ -1,0 +1,10 @@
+import random
+again=True
+while again:
+    print(random.randint(1,6))
+    print(random.randint(1,6))
+    other=input("do you want to roll the dice again?(y/n)")
+    if other=='y':
+        continue
+    else:
+        break
